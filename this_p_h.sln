@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "this_project_here", "this_p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle_lib", "Triangle_lib\Triangle_lib.vcxproj", "{772BB77D-C3F6-4A36-B801-D66694BB22F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{D092AB30-5149-4FD9-926C-1512AA25A58B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{772BB77D-C3F6-4A36-B801-D66694BB22F8}.Release|x64.Build.0 = Release|x64
 		{772BB77D-C3F6-4A36-B801-D66694BB22F8}.Release|x86.ActiveCfg = Release|Win32
 		{772BB77D-C3F6-4A36-B801-D66694BB22F8}.Release|x86.Build.0 = Release|Win32
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Debug|x64.ActiveCfg = Debug|x64
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Debug|x64.Build.0 = Debug|x64
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Debug|x86.ActiveCfg = Debug|Win32
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Debug|x86.Build.0 = Debug|Win32
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Release|x64.ActiveCfg = Release|x64
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Release|x64.Build.0 = Release|x64
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Release|x86.ActiveCfg = Release|Win32
+		{D092AB30-5149-4FD9-926C-1512AA25A58B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
