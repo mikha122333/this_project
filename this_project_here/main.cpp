@@ -3,17 +3,17 @@
 #include "main.h"
 
 int main(){
-    double a,a1,flag;
+    double hight,side,flag;
     flag = 0;
     Triangle res;
     while (flag == 0) {
         std::cout << "enter hight of triangle: ";
-        std::cin >> a;
+        std::cin >> hight;
         std::cout << "enter side of triangle: ";
-        std::cin >> a1;
+        std::cin >> side;
         try {
-            res.hight(a);
-            res.side(a1);
+            res.hight(hight);
+            res.side(side);
             flag = 1;
         }
         catch (const std::range_error& tmp) {
